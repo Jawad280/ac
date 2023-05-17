@@ -16,15 +16,15 @@ function App() {
         <NavBar />
         <div className="container">
           <Routes>
-            <Route path="/home" Component={Home}/>
+            <Route exact path="/" element={<Home />}/>
           </Routes>
 
           <Routes>
-            <Route path="/assassins" Component={TileCollection}/>
+            <Route path="/assassins" element={<TileCollection />}/>
           </Routes>
 
           <Routes>
-            <Route path="/about" Component={About}/>
+            <Route path="/about" element={<About />}/>
           </Routes>
 
         </div>
