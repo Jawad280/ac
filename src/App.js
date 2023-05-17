@@ -16,7 +16,7 @@ function App() {
         <NavBar />
         <div className="container">
           <Routes>
-            <Route path="/home" Component={Home}/>
+            <Route exact path="/" Component={Home}/>
           </Routes>
 
           <Routes>
