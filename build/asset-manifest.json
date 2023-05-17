@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ac/static/css/main.922ed51a.css",
+    "main.js": "/ac/static/js/main.f2abcc09.js",
+    "static/media/edward.webp": "/ac/static/media/edward.ba03c806490da0952109.webp",
+    "static/media/shay.webp": "/ac/static/media/shay.669dc53108d0bb400aa6.webp",
+    "static/media/kassandra.webp": "/ac/static/media/kassandra.512cca6dc1f451eacec1.webp",
+    "static/media/evie.webp": "/ac/static/media/evie.3ad2715ce2c9cc107c1b.webp",
+    "static/media/jacob.webp": "/ac/static/media/jacob.d055270ee95f6b3b49cb.webp",
+    "static/media/eivor.webp": "/ac/static/media/eivor.37c639399ff43b7d549d.webp",
+    "static/media/connor.webp": "/ac/static/media/connor.6b4ff6f40aba7d53c807.webp",
+    "static/media/basim.webp": "/ac/static/media/basim.4c68a53a7167253389ba.webp",
+    "static/media/altair.png": "/ac/static/media/altair.b8e30c3af42368f2879f.png",
+    "static/media/bayek.png": "/ac/static/media/bayek.9fb4c476fd66262bbffd.png",
+    "static/media/arno.png": "/ac/static/media/arno.f03cd5e40ba22361b561.png",
+    "static/media/ezio.webp": "/ac/static/media/ezio.12413c679e512c611fc3.webp",
+    "static/media/aclogo.png": "/ac/static/media/aclogo.928341abd878b42eeb5b.png",
+    "index.html": "/ac/index.html",
+    "main.922ed51a.css.map": "/ac/static/css/main.922ed51a.css.map",
+    "main.f2abcc09.js.map": "/ac/static/js/main.f2abcc09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.922ed51a.css",
+    "static/js/main.f2abcc09.js"
+  ]
+}
