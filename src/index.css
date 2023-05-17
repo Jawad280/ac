@@ -47,6 +47,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between; 
+  width: 100%;
 }
 
 
@@ -70,6 +71,13 @@
 
 .home button:hover {
   opacity: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .tile-collection {
@@ -227,4 +235,65 @@
 .made a {
   cursor: pointer;
   text-decoration: none;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 7px rgba(0,0,0,0.1);
+}
+
+.join-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.join-details div {
+  margin-bottom: 5px;
+}
+
+.join-details input {
+  border: none;
+  border-bottom: 0.5px solid darkred;
+  background-color: transparent;
+  padding: 15px;
+  outline: none;
+}
+
+.join-checkbox-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-bottom: 40px;
+}
+
+.join-checkbox {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  font-size: 14px;
+}
+
+.checked {
+  background-color: darkred;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+
+.unchecked {
+  border: 2px solid darkred;
+  background-color: transparent;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
 }

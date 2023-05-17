@@ -1,4 +1,5 @@
  import logo from "../src/aclogo.png";
+ import { Link } from 'react-router-dom';
  
  const NavBar = () => {
     
@@ -6,9 +7,9 @@
         <div className="navbar">
             <img src={logo} className="logo"/>
             <div className="navbar-inner">
-                <a className="navbar-link">Home</a>
-                <a className="navbar-link">Assassins</a>
-                <a className="navbar-link">About</a>
+                <Link className="navbar-link" to="/">Home</Link>
+                <Link className="navbar-link" to="/assassins">Assassins</Link>
+                <Link className="navbar-link" to="/about">About</Link>
             </div>
         </div>
      );

@@ -27,8 +27,7 @@ const About = () => {
                     tenets.map(t => <Tenet num={t.num} text={t.text}/>)
                 }
             </div>
-            
-        </div>
+        </div>       
      );
 }
  
