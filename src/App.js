@@ -4,7 +4,7 @@ import About from "./About";
 import NavBar from "./NavBar";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
