@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: Roboto;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 0.5px solid darkred;
+
+  width: 100%;
+}
+
+.logo {
+  height: 40px;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.navbar a:hover {
+  background-color: darkred;
+  color: white;
+  border-radius: 7px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+
+.home-logo {
+  width: 350px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home button {
+  border: none;
+  background-color: darkred;
+  color: white;
+  padding: 15px 30px;
+  opacity: 100%;
+  transition: all 0.2s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home button:hover {
+  opacity: 90%;
+}
+
+.tile-collection {
+  width: 75%;
+  margin-top: 70px;
+
+  column-gap: 10px;
+  row-gap: 10px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  border-radius: 10px;
+
+  width: 250px;
+  margin: 20px;
+
+  background-color: rgb(247, 240, 240);
+  cursor: pointer;
+
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.tile:hover {
+  scale: 1.1;
+  box-shadow: 5px 5px 7px rgba(0,0,0,0.1);
+}
+
+.tile-image {
+  height: 400px;
+  width: 200px;
+  object-fit:scale-down;
+}
+
+.tile-name {
+  position: absolute;
+  background-color: darkred;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.tile-content-container {
+  background-color: darkred;
+  color: white;
+
+  width: 250px;
+  height: 404px;
+}
+
+.tile-content {
+  padding: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  align-items: center;
+  color: darkred;
+}
+
+.about-text {
+  text-align: justify;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.about-tenet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  align-items: baseline;
+}
+
+.tenet {
+  text-align: center;
+  font-weight: 600;
+  width: 150px;
+  margin: 30px;
+  color: darkred;
+  cursor: pointer;
+}
+
+.tenet h1 {
+  border: 4px solid darkred;
+  font-size: 30px;
+  border-radius: 100%;
+  padding: 50px 5px;
+  transition: all 0.4s;
+}
+
+.tenet div {
+  font-weight: 400;
+}
+
+.tenet-clicked {
+  text-align: center;
+  font-weight: 600;
+  width: 150px;
+  margin: 30px;
+  color: darkred;
+  cursor: pointer;
+}
+
+.tenet-clicked h1 {
+  border: 4px solid darkred;
+  font-size: 30px;
+  border-radius: 100%;
+  padding: 50px 5px;
+  transition: all 0.4s;
+
+  background-color: darkred;
+  color: white;
+}
+
+
+@media screen and (max-width: 500px) {
+  .tile-collection {
+    justify-content: center;
+  }
+}
+
+.made {
+  display: flex;
+  justify-content: space-between;
+  color: darkred;
+  margin: 30px;
+  width: 100%;
+}
+
+.made a {
+  cursor: pointer;
+  text-decoration: none;
+}
