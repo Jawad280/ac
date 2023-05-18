@@ -4,21 +4,32 @@
   font-family: Roboto;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+
+  min-height: 100vh;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  border-bottom: 0.5px solid darkred;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+
+  border-bottom: 0.1px solid rgb(156, 10, 10);
 
   width: 100%;
 }
@@ -31,7 +42,7 @@
 .navbar a {
   text-decoration: none;
   padding: 10px;
-  margin-right: 5px;
+  margin-right: 15px;
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -78,6 +89,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  margin-bottom: 50px;
 }
 
 .tile-collection {
@@ -228,13 +241,24 @@
   display: flex;
   justify-content: space-between;
   color: darkred;
-  margin: 30px;
   width: 100%;
+
+  
+  background-color: rgb(22, 22, 22);
+  color: white;
+
+  margin-top: auto;
 }
 
 .made a {
   cursor: pointer;
   text-decoration: none;
+  color: white;
+}
+
+.made div,
+.made a {
+  padding: 15px;
 }
 
 .join {

@@ -2,6 +2,7 @@ import Home from "./Home";
 import TileCollection from "./TileCollection";
 import About from "./About";
 import NavBar from "./NavBar";
+import Made from "./Made";
 
 import {
   HashRouter as Router,
@@ -13,7 +14,9 @@ function App() {
   return (
     <Router>
       <div className="App">
+        
         <NavBar />
+        
         <div className="container">
           <Routes>
             <Route exact path="/" element={<Home />}/>
@@ -26,8 +29,10 @@ function App() {
           <Routes>
             <Route path="/about" element={<About />}/>
           </Routes>
-
         </div>
+
+        <Made />
+
       </div>
     </Router>
     
